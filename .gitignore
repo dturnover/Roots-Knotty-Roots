@@ -1,0 +1,30 @@
+# Node
+frontend/node_modules/
+frontend/dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python
+backend/venv/
+backend/__pycache__/
+*.py[cod]
+*.pyo
+
+# Databases
+backend/records.db
+
+# Jupyter
+.ipynb_checkpoints/
+# Optional: ignore notebooks if you don’t want them in repo
+# *.ipynb
+
+# Data (optional: keep only one canonical CSV)
+RKR July 6, 2025.csv
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+*.swp
+
+frontend/.env
